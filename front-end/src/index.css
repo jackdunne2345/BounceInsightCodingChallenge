@@ -1,0 +1,71 @@
+:root {
+  --color: #ffffff;
+  --background-color: #242424;
+ 
+}
+body,div,input{
+  color: var(--color);
+  background-color: var(--background-color);
+}
+
+button {
+  background-color: #dd4bd8; 
+  color: #ffffff;
+}
+
+.container{
+  
+}
+
+.glow{
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+/* Add the glow effect on hover */
+.glow:hover {
+  
+  box-shadow: 0 0 7px #682566; /* Add a blue glow effect */
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  margin: 0 auto; /* Center the container horizontally */
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px; 
+  overflow: hidden; 
+  border: 2px solid #682566; 
+}
+
+
+.search-input {
+  padding: 10px; 
+  border: none;
+  outline: none; 
+  flex-grow: 1; /* Allow the input to grow and fill the remaining space */
+  border-right: 1px solid #682566;
+}
+
+
+.search-button {
+  padding: 10px 20px; /* Add padding to the button */
+  border: none;
+  cursor: pointer;
+  outline: none; 
+  transition: background-color 0.5s ease; /* Add a smooth hover effect */
+}
+
+
+button:hover {
+  background-color: #682566; /* Change the background color on hover */
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --color: #242424;
+    --background-color: #ffffff;
+  }
+ 
+}
