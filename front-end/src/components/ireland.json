@@ -1,213 +1,205 @@
-
+[
     {
         "name": {
-            "common": "Ireland",
-            "official": "Republic of Ireland",
+            "common": "Hong Kong",
+            "official": "Hong Kong Special Administrative Region of the People's Republic of China",
             "nativeName": {
                 "eng": {
-                    "official": "Republic of Ireland",
-                    "common": "Ireland"
+                    "official": "Hong Kong Special Administrative Region of the People's Republic of China",
+                    "common": "Hong Kong"
                 },
-                "gle": {
-                    "official": "Poblacht na hÉireann",
-                    "common": "Éire"
+                "zho": {
+                    "official": "中华人民共和国香港特别行政区",
+                    "common": "香港"
                 }
             }
         },
         "tld": [
-            ".ie"
+            ".hk",
+            ".香港"
         ],
-        "cca2": "IE",
-        "ccn3": "372",
-        "cca3": "IRL",
-        "cioc": "IRL",
-        "independent": true,
+        "cca2": "HK",
+        "ccn3": "344",
+        "cca3": "HKG",
+        "cioc": "HKG",
+        "independent": false,
         "status": "officially-assigned",
-        "unMember": true,
+        "unMember": false,
         "currencies": {
-            "EUR": {
-                "name": "Euro",
-                "symbol": "€"
+            "HKD": {
+                "name": "Hong Kong dollar",
+                "symbol": "$"
             }
         },
         "idd": {
-            "root": "+3",
+            "root": "+8",
             "suffixes": [
-                "53"
+                "52"
             ]
         },
         "capital": [
-            "Dublin"
+            "City of Victoria"
         ],
         "altSpellings": [
-            "IE",
-            "Éire",
-            "Republic of Ireland",
-            "Poblacht na hÉireann"
+            "HK"
         ],
-        "region": "Europe",
-        "subregion": "Northern Europe",
+        "region": "Asia",
+        "subregion": "Eastern Asia",
         "languages": {
             "eng": "English",
-            "gle": "Irish"
+            "zho": "Chinese"
         },
         "translations": {
             "ara": {
-                "official": "جمهورية أيرلندا",
-                "common": "أيرلندا"
+                "official": "منطقة هونغ كونغ الادارية التابعة لجمهورية الصين الشعبية",
+                "common": "هونغ كونغ"
             },
             "bre": {
-                "official": "Republik Iwerzhon",
-                "common": "Iwerzhon"
+                "official": "Rannvro velestradurel arbennik Hong Kong eus Republik pobl Sina",
+                "common": "Hong Kong"
             },
             "ces": {
-                "official": "Irsko",
-                "common": "Irsko"
+                "official": "Zvláštní administrativní oblast Čínské lidové republiky Hongkong",
+                "common": "Hongkong"
             },
             "cym": {
-                "official": "Republic of Ireland",
-                "common": "Ireland"
+                "official": "Hong Kong Special Administrative Region of the People's Republic of China",
+                "common": "Hong Kong"
             },
             "deu": {
-                "official": "Republik Irland",
-                "common": "Irland"
+                "official": "Sonderverwaltungszone Hongkong der Volksrepublik China",
+                "common": "Hongkong"
             },
             "est": {
-                "official": "Iirimaa",
-                "common": "Iirimaa"
+                "official": "Hongkongi erihalduspiirkond",
+                "common": "Hongkong"
             },
             "fin": {
-                "official": "Irlannin tasavalta",
-                "common": "Irlanti"
+                "official": "Hong Kongin erityishallintoalue",
+                "common": "Hongkong"
             },
             "fra": {
-                "official": "République d'Irlande",
-                "common": "Irlande"
+                "official": "Région administrative spéciale de Hong Kong de la République populaire de Chine",
+                "common": "Hong Kong"
             },
             "hrv": {
-                "official": "Republika Irska",
-                "common": "Irska"
+                "official": "Hong Kong Posebnog upravnog područjaNarodne Republike Kine",
+                "common": "Hong Kong"
             },
             "hun": {
-                "official": "Ír Köztársaság",
-                "common": "Írország"
+                "official": "Hongkong",
+                "common": "Hongkong"
             },
             "ita": {
-                "official": "Repubblica d'Irlanda",
-                "common": "Irlanda"
+                "official": "Hong Kong Regione amministrativa speciale della Repubblica Popolare Cinese",
+                "common": "Hong Kong"
             },
             "jpn": {
-                "official": "アイルランド共和国",
-                "common": "アイルランド"
+                "official": "中華人民共和国香港特別行政区",
+                "common": "香港"
             },
             "kor": {
-                "official": "아일랜드 공화국",
-                "common": "아일랜드"
+                "official": "중화인민공화국 홍콩 특별행정구",
+                "common": "홍콩"
             },
             "nld": {
-                "official": "Republic of Ireland",
-                "common": "Ierland"
+                "official": "Hong Kong Speciale Administratieve Regio van de Volksrepubliek China",
+                "common": "Hongkong"
             },
             "per": {
-                "official": "ایرلند",
-                "common": "ایرلند"
+                "official": "هُنگ کُنگ",
+                "common": "هُنگ کُنگ"
             },
             "pol": {
-                "official": "Republika Irlandii",
-                "common": "Irlandia"
+                "official": "Specjalny Region Administracyjny Chińskiej Republiki Ludowej Hongkong",
+                "common": "Hongkong"
             },
             "por": {
-                "official": "República da Irlanda",
-                "common": "Irlanda"
+                "official": "Hong Kong Região Administrativa Especial da República Popular da China",
+                "common": "Hong Kong"
             },
             "rus": {
-                "official": "Ирландия",
-                "common": "Ирландия"
+                "official": "Hong Kong Специальный административный район Китайской Народной Республики Китая",
+                "common": "Гонконг"
             },
             "slk": {
-                "official": "Írska republika",
-                "common": "Írsko"
+                "official": "Špeciálna administratívna oblasťČínskej ľudovej republiky Hongkong",
+                "common": "Hongkong"
             },
             "spa": {
-                "official": "República de Irlanda",
-                "common": "Irlanda"
+                "official": "Hong Kong Región Administrativa Especial de la República Popular China",
+                "common": "Hong Kong"
             },
             "srp": {
-                "official": "Република Ирска",
-                "common": "Ирска"
+                "official": "Хонгконг специјална административна област Народне Републике Кине",
+                "common": "Хонгконг"
             },
             "swe": {
-                "official": "Irland",
-                "common": "Irland"
+                "official": "Hongkong",
+                "common": "Hongkong"
             },
             "tur": {
-                "official": "İrlanda Cumhuriyeti",
-                "common": "İrlanda"
+                "official": "Çin Halk Cumhuriyeti Hong Kong Özel İdari Bölgesi",
+                "common": "Hong Kong"
             },
             "urd": {
-                "official": "جمہوریہ جزیرہ آئرلینڈ",
-                "common": "جزیرہ آئرلینڈ"
-            },
-            "zho": {
-                "official": "爱尔兰共和国",
-                "common": "爱尔兰"
+                "official": "ہانگ کانگ عوامی جمہوریہ چین کا خصوصی انتظامی علاقہ",
+                "common": "ہانگ کانگ"
             }
         },
         "latlng": [
-            53,
-            -8
+            22.267,
+            114.188
         ],
         "landlocked": false,
         "borders": [
-            "GBR"
+            "CHN"
         ],
-        "area": 70273,
+        "area": 1104,
         "demonyms": {
             "eng": {
-                "f": "Irish",
-                "m": "Irish"
+                "f": "Hong Konger",
+                "m": "Hong Konger"
             },
             "fra": {
-                "f": "Irlandaise",
-                "m": "Irlandais"
+                "f": "Hongkongaise",
+                "m": "Hongkongais"
             }
         },
-        "flag": "🇮🇪",
+        "flag": "🇭🇰",
         "maps": {
-            "googleMaps": "https://goo.gl/maps/hxd1BKxgpchStzQC6",
-            "openStreetMaps": "https://www.openstreetmap.org/relation/62273"
+            "googleMaps": "https://goo.gl/maps/1sEnNmT47ffrC8MU8",
+            "openStreetMaps": "https://www.openstreetmap.org/relation/913110"
         },
-        "population": 4994724,
-        "gini": {
-            "2017": 31.4
-        },
-        "fifa": "IRL",
+        "population": 7500700,
+        "fifa": "HKG",
         "car": {
             "signs": [
-                "IRL"
+                "HK"
+                
             ],
             "side": "left"
         },
         "timezones": [
-            "UTC"
+            "UTC+08:00"
         ],
         "continents": [
-            "Europe"
+            "Asia"
         ],
         "flags": {
-            "png": "https://flagcdn.com/w320/ie.png",
-            "svg": "https://flagcdn.com/ie.svg",
-            "alt": "The flag of Ireland is composed of three equal vertical bands of green, white and orange."
+            "png": "https://flagcdn.com/w320/hk.png",
+            "svg": "https://flagcdn.com/hk.svg"
         },
         "coatOfArms": {
-            "png": "https://mainfacts.com/media/images/coats_of_arms/ie.png",
-            "svg": "https://mainfacts.com/media/images/coats_of_arms/ie.svg"
+            "png": "https://mainfacts.com/media/images/coats_of_arms/hk.png",
+            "svg": "https://mainfacts.com/media/images/coats_of_arms/hk.svg"
         },
         "startOfWeek": "monday",
         "capitalInfo": {
             "latlng": [
-                53.32,
-                -6.23
+                22.267,
+                114.188
             ]
         }
     }
+]
