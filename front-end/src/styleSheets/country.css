@@ -1,10 +1,12 @@
 .country-content{
     width: 100%;
+   
     overflow-y: scroll;
     display: flex;
     flex-direction: column;
     align-items: center;
     max-height: 100%;
+    text-align: center;
   }
   
   #flag-container{
@@ -20,10 +22,13 @@
   .hover-box {
     max-width: 125px;
     max-height: 100px;
-    background:black;
+    background:#242424;
     z-index: 1;
     overflow-y: scroll;
     position: absolute;
+   margin-inline-end: 20px;
+    border-radius: 10px;
+  border: 4px solid #682566;
    
  }
 .name-region{
@@ -31,7 +36,7 @@
 }
 #name{
 
-overflow: hidden;
+display: flex;
 
 }
 #region{
@@ -41,7 +46,7 @@ justify-content: center;
 
 }
 .more-info{
-  width: 80%;
+  width: 80% ;
   display: flex;
   flex-direction: column;
   align-items: center;
