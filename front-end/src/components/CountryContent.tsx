@@ -217,9 +217,7 @@ export default function CountryContent(props: { data: CountryInterface }) {
                 <div className="info-top">
                   <strong>Flag code</strong>
                 </div>{" "}
-                <div className="info-bottom">
-                  <p> {props.data.flag}</p>
-                </div>
+                <div className="info-bottom">{props.data.flag}</div>
               </div>
               <div className="entry">
                 <div className="info-top">

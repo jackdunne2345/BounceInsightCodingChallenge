@@ -26,7 +26,7 @@ function App() {
 
   const handleGetInfo = async () => {
     try {
-      const response = await fetch("http://localhost:3000/getCountryInfo", {
+      const response = await fetch("/getCountryInfo", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
