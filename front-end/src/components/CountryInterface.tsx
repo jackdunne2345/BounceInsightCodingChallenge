@@ -1,82 +1,85 @@
 export interface CountryInterface {
   name?: {
-    common?: string;
-    official?: string;
+    common?: string | undefined;
+    official?: string | undefined;
     nativeName?: {
       [key: string]: {
-        official?: string;
-        common?: string;
+        official?: string | undefined;
+        common?: string | undefined;
       };
     };
   };
-  tld?: string[];
-  cca2?: string;
-  ccn3?: string;
-  cca3?: string;
-  cioc?: string;
-  independent?: boolean;
-  status?: string;
-  unMember?: boolean;
+  tld?: string[] | undefined;
+  cca2?: string | undefined;
+  ccn3?: string | undefined;
+  cca3?: string | undefined;
+  cioc?: string | undefined;
+  independent?: boolean | undefined;
+  status?: string | undefined;
+  unMember?: boolean | undefined;
   currencies?: {
     [key: string]: {
-      name?: string;
-      symbol?: string;
+      name?: string | undefined;
+      symbol?: string | undefined;
     };
   };
   idd?: {
-    root?: string;
-    suffixes?: string[];
+    root?: string | undefined;
+    suffixes?: string[] | undefined;
   };
-  capital?: string[];
-  altSpellings?: string[];
-  region?: string;
-  subregion?: string;
+  capital?: string[] | undefined;
+  altSpellings?: string[] | undefined;
+  region?: string | undefined;
+  subregion?: string | undefined;
   languages?: {
-    [key: string]: string;
+    [key: string]: string | undefined;
   };
   translations?: {
     [key: string]: {
-      official?: string;
-      common?: string;
+      official?: string | undefined;
+      common?: string | undefined;
     };
   };
-  latlng?: number[];
-  landlocked?: boolean;
-  borders?: string[];
-  area?: number;
+  latlng?: number[] | undefined;
+  landlocked?: boolean | undefined;
+  borders?: string[] | undefined;
+  area?: number | undefined;
   demonyms?: {
     [key: string]: {
-      f?: string;
-      m?: string;
+      f?: string | undefined;
+      m?: string | undefined;
     };
   };
-  flag?: string;
+  flag?: string | undefined;
   maps?: {
-    googleMaps?: string;
-    openStreetMaps?: string;
+    googleMaps?: string | undefined;
+    openStreetMaps?: string | undefined;
   };
-  population?: number;
-  gini?: {
-    [key: string]: number;
-  } | null;
-  fifa?: string;
+  population?: number | undefined;
+  gini?:
+    | {
+        [key: string]: number;
+      }
+    | null
+    | undefined;
+  fifa?: string | undefined;
   car?: {
-    signs?: string[];
-    side?: string;
+    signs?: string[] | undefined;
+    side?: string | undefined;
   };
-  timezones?: string[];
-  continents?: string[];
+  timezones?: string[] | undefined;
+  continents?: string[] | undefined;
   flags?: {
-    png?: string;
-    svg?: string;
-    alt?: string;
+    png?: string | undefined;
+    svg?: string | undefined;
+    alt?: string | undefined;
   };
   coatOfArms?: {
-    png?: string;
-    svg?: string;
+    png?: string | undefined;
+    svg?: string | undefined;
   };
-  startOfWeek?: string;
+  startOfWeek?: string | undefined;
   capitalInfo?: {
-    latlng?: number[];
+    latlng?: number[] | undefined;
   };
 }

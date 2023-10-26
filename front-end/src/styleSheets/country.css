@@ -1,7 +1,6 @@
 .country-content{
     width: 100%;
-   
-    overflow-y: scroll;
+    overflow-y:scroll;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -19,68 +18,78 @@
     width: 20%;
   }
 
-  .hover-box {
-    max-width: 125px;
-    max-height: 100px;
-    background:#242424;
-    z-index: 1;
-    overflow-y: scroll;
-    position: absolute;
-   margin-inline-end: 20px;
-    border-radius: 10px;
+.hover-box {
+  max-width: 125px;
+  max-height: 100px;
+  background:#242424;
+  z-index: 1;
+  overflow-y: scroll;
+  position: absolute;
+  margin-inline-end: 20px;
+  border-radius: 10px;
   border: 4px solid #682566;
-   
  }
+
 .name-region{
   display: flex;
 }
+
 #name{
-
 display: flex;
-
 }
-#region{
 
+#region{
 align-items: center;
 justify-content: center;
-
 }
+
 .more-info{
-  width: 80% ;
+  width: 95% ;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  border-radius: 20px;
   border: 2px solid #682566;
 }
-.entry{
-  padding-top: 2%;
+
+.entry {
   width: 100%;
-  align-items: center;
+  overflow-y: scroll;
+  overflow: hidden;
   display: flex;
-  justify-content: center;
-  border-bottom: 2px solid #682566;;
-  gap: 2px;
-}
-.info-left{
-flex: 1;
-
-display: flex;
-justify-content: center;
+  flex-direction: column;
+  max-height: 100%;
+  text-align: center;
+  border-bottom: 2px solid #682566;
+  overflow:hidden;
 }
 
-.info-right{
-  flex: 1;
-  border-left:2px;
+.info-top {background-color: #682566;
   display: flex;
-  align-items: center;
+  width: 100%;
   justify-content: center;
-  max-width: 50%; 
-  max-height: 10%; 
+  align-items: center;
+  font-size:x-large;
 }
-.info-right img{
+
+.info-bottom {
+ display:flex;
+ flex-grow: 1;
+ flex-direction: column;
+ word-break:break-all;
+ align-items: center;
+ justify-content: center;
+ width: 100%;
+ overflow:hidden;
+ background-color: #242424;
+ color: #757575;
+}
+
+.info-bottom img{
   max-width: 50px; 
   max-height: 50px; 
 }
 
+.generate{
+  overflow:hidden;
+  width: 100%;
+}
 

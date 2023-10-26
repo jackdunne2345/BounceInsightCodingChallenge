@@ -9,7 +9,7 @@ function App() {
   const prefersDarkMode = useMediaQuery("(prefers-color-scheme: dark)");
   const [data, setData] = useState<CountryInterface | null>(null);
   const [error, setError] = useState<string | null>("no data");
-  const [countryName, setCountryName] = useState<string>();
+  const [countryName, setCountryName] = useState<string>("");
   const [isShrunk, setIsShrunk] = useState<boolean>(false);
   const [isLoading, setIsLoading] = useState(false);
   const imageSource = prefersDarkMode ? bounceLogoDark : bounceLogo;
@@ -58,14 +58,26 @@ function App() {
   };
 
   const submit = async () => {
-    if (isShrunk) {
-      setIsShrunk((prevState) => !prevState);
-      console.log("conditional is shrunk");
-    }
-    setIsLoading((prevState) => !prevState);
-    await handleGetInfo();
+    if (
+      data === null ||
+      (cleanString(countryName) != cleanString(data!.name?.common!) &&
+        cleanString(countryName) != cleanString(data!.name?.official!))
+    ) {
+      if (isShrunk) {
+        setIsShrunk((prevState) => !prevState);
+        console.log("conditional is shrunk");
+      }
+      setIsLoading((prevState) => !prevState);
 
-    await new Promise((resolve) => setTimeout(resolve, 2000));
+      await handleGetInfo();
+
+      await new Promise((resolve) => setTimeout(resolve, 2000));
+    }
+    function cleanString(inputString: string) {
+      const cleanedString = inputString.replace(/[^a-zA-Z ]/g, "");
+      const string = cleanedString.toLowerCase();
+      return string;
+    }
   };
 
   const handleKeyPress = async (e: any) => {
@@ -87,7 +99,6 @@ function App() {
       </div>
       <div className="search-container glow">
         <input
-          value={countryName}
           onChange={handleInputChange}
           type="text"
           className="search-input"
@@ -104,7 +115,7 @@ function App() {
           <span className="button-content">Search</span>
         </button>
       </div>
-      <div className="country-container">
+      <div className="country-container" style={{ textAlign: "center" }}>
         <div id="space">
           {isLoading && <div className="loading-wheel"></div>}
         </div>
